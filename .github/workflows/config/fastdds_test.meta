@@ -10,7 +10,8 @@ names:
         ctest-args: [
                 "--repeat", "until-pass:3",
                 "--timeout", "300",
-                "--label-exclude", "xfail"
+                "--label-exclude", "xfail",
+				"--schedule-random"
         ]
     googletest-distribution:
         cmake-args:
